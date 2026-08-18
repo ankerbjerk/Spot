@@ -1,0 +1,3 @@
+[submodule "src/spot-main_board/ABlib"]
+	path = src/spot-main_board/ABlib
+	url = git@github.com:ankerbjerk/ABlib.git
