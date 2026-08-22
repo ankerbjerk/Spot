@@ -381,39 +381,33 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -423,21 +417,9 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": true
         },
         {
           "group_by": false,
@@ -447,13 +429,19 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey PN",
+          "name": "DigiKey PN",
+          "show": true
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
