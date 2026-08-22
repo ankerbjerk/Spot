@@ -83,9 +83,9 @@
     "files": [
       {
         "name": "spot-main_board.kicad_sch",
-        "open": false,
+        "open": true,
         "window": {
-          "display": 1,
+          "display": 0,
           "maximized": true,
           "pos_x": 1685,
           "pos_y": 26,
