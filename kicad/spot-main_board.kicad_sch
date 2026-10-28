@@ -6,8 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Spot")
-		(date "2026-08-22")
-		(rev "1")
+		(date "2026-09-27")
 		(company "Anker Bjerkestrand")
 	)
 	(lib_symbols
@@ -3572,7 +3571,7 @@
 		)
 		(uuid "66344b99-2eb1-4614-87b6-1188d4f052c6")
 	)
-	(text "Spot 1"
+	(text "Spot"
 		(exclude_from_sim no)
 		(at 239.776 88.646 0)
 		(effects
@@ -3692,6 +3691,24 @@
 		(uuid "2f078465-ef71-44ff-95c1-6578f6c95d37")
 	)
 	(junction
+		(at 165.1 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "319f0bc7-8f9a-425f-b193-5218e4517a01")
+	)
+	(junction
+		(at 190.5 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40ae8d37-c3df-4620-bfc6-607098cca73e")
+	)
+	(junction
+		(at 196.85 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41116f6c-7315-40c5-bc51-4c3786ea4218")
+	)
+	(junction
 		(at 144.78 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3774,12 +3791,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7a3e7c0-bbfe-44f8-af19-7360b60c416d")
-	)
-	(junction
-		(at 180.34 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f81a58d4-b7ad-4c2e-b749-8781d6a81b6a")
 	)
 	(no_connect
 		(at 233.68 130.81)
@@ -3905,6 +3916,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 110.49) (xy 196.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe7a210-f447-43e4-b2e1-c19a08cbdacb")
+	)
+	(wire
+		(pts
 			(xy 158.75 69.85) (xy 158.75 74.93)
 		)
 		(stroke
@@ -3955,6 +3976,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 124.46) (xy 190.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca74839-fa00-4ac9-b2b3-52c56af10fbf")
+	)
+	(wire
+		(pts
 			(xy 176.53 67.31) (xy 176.53 72.39)
 		)
 		(stroke
@@ -3962,6 +3993,16 @@
 			(type default)
 		)
 		(uuid "1e3718cb-ac0c-4200-990a-2e235b4d7163")
+	)
+	(wire
+		(pts
+			(xy 165.1 110.49) (xy 166.37 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259ce7fc-f069-4681-8721-6367438f2c01")
 	)
 	(wire
 		(pts
@@ -4005,7 +4046,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 110.49) (xy 166.37 110.49)
+			(xy 161.29 110.49) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4205,6 +4246,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 110.49) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f16114-73ce-4f1f-9de1-605d29983d46")
+	)
+	(wire
+		(pts
+			(xy 196.85 110.49) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707f635c-b740-4a4f-a40d-556df24183be")
+	)
+	(wire
+		(pts
 			(xy 218.44 173.99) (xy 218.44 171.45)
 		)
 		(stroke
@@ -4232,6 +4293,26 @@
 			(type default)
 		)
 		(uuid "7a95eeee-06cb-42cf-af2a-57f023ef8cd2")
+	)
+	(wire
+		(pts
+			(xy 166.37 110.49) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80545e7d-150b-4de1-846b-6141e8c8ca03")
+	)
+	(wire
+		(pts
+			(xy 196.85 124.46) (xy 196.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d9c163-b712-4368-b7ad-49aa4efb07b0")
 	)
 	(wire
 		(pts
@@ -4265,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 110.49) (xy 180.34 110.49)
+			(xy 175.26 110.49) (xy 190.5 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4302,16 +4383,6 @@
 			(type default)
 		)
 		(uuid "98099c50-78ae-4aee-96c4-0fc4540f5b4b")
-	)
-	(wire
-		(pts
-			(xy 180.34 110.49) (xy 203.2 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ff497f-f67a-4f27-bda4-3cc66133e05e")
 	)
 	(wire
 		(pts
@@ -4372,6 +4443,16 @@
 			(type default)
 		)
 		(uuid "a796c20f-1085-4d31-99b9-cad5100dbc7a")
+	)
+	(wire
+		(pts
+			(xy 196.85 110.49) (xy 203.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f329bd-500a-42e7-a9dc-3c5e7224e0a6")
 	)
 	(wire
 		(pts
@@ -4495,16 +4576,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 110.49) (xy 175.26 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d620b0b2-2f75-44d6-8442-239036372692")
-	)
-	(wire
-		(pts
 			(xy 203.2 110.49) (xy 203.2 113.03)
 		)
 		(stroke
@@ -4575,7 +4646,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 107.95) (xy 180.34 110.49)
+			(xy 165.1 107.95) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8341,7 +8412,7 @@
 		(uuid "7d4e4c08-a470-4f23-915b-be20b7660c0b")
 	)
 	(label "+DC_OUT"
-		(at 138.43 110.49 0)
+		(at 137.16 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8591,15 +8662,15 @@
 		(dnp no)
 		(uuid "114a666f-c2fd-4158-a18c-ef5e486825d0")
 		(property "Reference" "Q1"
-			(at 168.148 44.958 90)
+			(at 165.1 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BT139-600"
-			(at 162.052 50.8 90)
+		(property "Value" "BT139-600E/DG,127"
+			(at 165.1 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rapidonline.com/pdf/47-3240.pdf"
+		(property "Datasheet" "https://www.ween-semi.com/datasheet/BT139-600E.pdf"
 			(at 165.1 46.99 0)
 			(effects
 				(font
@@ -8627,7 +8698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16A RMS, 600V Off-State Voltage, 4Q Triac, TO-220"
+		(property "Description" "TRIAC Logic - Sensitive Gate 600 V 16 A Through Hole TO-220AB"
 			(at 165.1 46.99 0)
 			(effects
 				(font
@@ -8636,7 +8707,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" ""
+		(property "DigiKey PN" "1740-1050-ND"
 			(at 165.1 46.99 90)
 			(effects
 				(font
@@ -8645,7 +8716,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "BT139-600E/DG,127"
 			(at 165.1 46.99 90)
 			(effects
 				(font
@@ -8654,7 +8725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "WeEn Semiconductors"
 			(at 165.1 46.99 90)
 			(effects
 				(font
@@ -8848,6 +8919,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical"
@@ -8914,6 +8986,168 @@
 			(project ""
 				(path "/fbc54118-35f7-4d14-be36-f57faae9c499"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 190.5 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18a82d59-4a2e-45ed-bb1f-6492a79f01ab")
+		(property "Reference" "C?"
+			(at 191.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22n"
+			(at 191.262 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 191.4652 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC1206JRNPO9BN223"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.022 µF ±5% 50V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" "13-CC1206JRNPO9BN223CT-ND"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC1206JRNPO9BN223"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cb8ec6c-2694-42b6-8db0-25cec7353eb1")
+		)
+		(pin "1"
+			(uuid "04392464-f073-45c8-8349-b17a787be90b")
+		)
+		(instances
+			(project "spot-main_board"
+				(path "/fbc54118-35f7-4d14-be36-f57faae9c499"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f5168eb-ca7c-4916-bf55-0cae6fd71810")
+		(property "Reference" "#PWR011"
+			(at 190.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57fec86f-ce40-4c09-981d-00de82222ab3")
+		)
+		(instances
+			(project "spot-main_board"
+				(path "/fbc54118-35f7-4d14-be36-f57faae9c499"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9098,7 +9332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5W AC/DC medical power supply, 12V fixed output voltage, 417mA output, 4.0kVAC isolation"
+		(property "Description" "Enclosed AC DC Converters 1 Output 12V 417mA 90 ~ 264 VAC, 120 ~ 370 VDC Input"
 			(at 127 121.666 0)
 			(effects
 				(font
@@ -9107,7 +9341,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TMF 05112"
 			(at 127 113.03 0)
 			(effects
 				(font
@@ -9116,7 +9350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Traco Power"
 			(at 127 113.03 0)
 			(effects
 				(font
@@ -9125,7 +9359,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" ""
+		(property "DigiKey PN" "TMF05112-ND"
 			(at 127 113.03 0)
 			(effects
 				(font
@@ -9714,7 +9948,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 180.34 107.95 0)
+		(at 165.1 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9723,7 +9957,7 @@
 		(fields_autoplaced yes)
 		(uuid "53be7814-980d-4375-bc67-ebb7ca177baf")
 		(property "Reference" "#PWR02"
-			(at 180.34 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9732,7 +9966,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 180.34 102.87 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,7 +9974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 107.95 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +9983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 107.95 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +9992,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 180.34 107.95 0)
+			(at 165.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9965,6 +10199,102 @@
 			(project ""
 				(path "/fbc54118-35f7-4d14-be36-f57faae9c499"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8be78088-4fe6-4373-b6a7-6ee448d1b169")
+		(property "Reference" "C?"
+			(at 198.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22n"
+			(at 197.612 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 197.8152 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/download/specsheet/CC1206JRNPO9BN223"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.022 µF ±5% 50V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" "13-CC1206JRNPO9BN223CT-ND"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC1206JRNPO9BN223"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6106789c-b7a9-4bb7-9420-1664b75dbaa3")
+		)
+		(pin "1"
+			(uuid "642cbedf-58bf-4bd9-98d0-3e923dc4bc26")
+		)
+		(instances
+			(project "spot-main_board"
+				(path "/fbc54118-35f7-4d14-be36-f57faae9c499"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -10211,6 +10541,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical"
@@ -10299,7 +10630,7 @@
 				)
 			)
 		)
-		(property "Value" "MOC3041M"
+		(property "Value" "APT1232"
 			(at 148.59 81.28 0)
 			(effects
 				(font
@@ -10307,7 +10638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-6_W7.62mm"
 			(at 143.51 92.71 0)
 			(effects
 				(font
@@ -10318,7 +10649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MOC3043M-D.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8457/APT%20Catalog.pdf"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -10328,7 +10659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zero Cross Opto-Triac, Vdrm 400V, Ift 15mA, DIP6"
+		(property "Description" "Optoisolator Triac Output 5000Vrms 1 Channel 6-DIP"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -10337,7 +10668,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey PN" ""
+		(property "DigiKey PN" "255-5968-ND"
 			(at 148.59 87.63 0)
 			(effects
 				(font
@@ -10368,6 +10699,72 @@
 			(project ""
 				(path "/fbc54118-35f7-4d14-be36-f57faae9c499"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3670212-7d0a-4c78-a708-1cc530fb0593")
+		(property "Reference" "#PWR010"
+			(at 196.85 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdbb9330-cd8e-495c-9fbb-b0eb18fb2701")
+		)
+		(instances
+			(project "spot-main_board"
+				(path "/fbc54118-35f7-4d14-be36-f57faae9c499"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
